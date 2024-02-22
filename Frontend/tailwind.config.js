@@ -2,7 +2,13 @@
 export default {
   content: [
     "./index.html",
-    "Frontend/src/components/HelloWorld.vue"
+    "src/App.vue",
+    "src/components/Nav.vue",
+    "src/pages/Home.vue",
+    "src/pages/Signup.vue",
+    "src/pages/Login.vue",
+    "src/pages/Map.vue",
+    "src/pages/Places.vue"
   ],
   theme: {
     extend: {},
@@ -21,11 +27,11 @@ export default {
       'white': '#ffffff',
       'black': '#2F2F2F',
       'gray': '#4F4E4E',
-      'medium-gray': '#848484',
-      'light-gray': '#DBDBDB',
+      'medium-gray': '#6D7877',
+      'light-gray': '#99AAA9',
       'base': '#E8F3F3',
       'primary': '#70DAD3',
-      'dark': '#D3E1EE',
+      'dark': '#3B4948',
       'accent': '#EC8C6F',
     },
     borderRadius: {
@@ -33,8 +39,9 @@ export default {
       DEFAULT: '0.25rem',
       DEFAULT: '4px',
       'sm': '0.5rem',
-      'md': '1rem',
-      'lg': '3rem',
+      'md': '1.5rem',
+      'lg': '2.5rem',
+      'xl': '4rem',
       'full': '9999px',
     },
   },
